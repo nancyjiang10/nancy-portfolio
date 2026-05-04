@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/svelte';
 import Profile from '$lib/components/Portfolio/Profile.svelte';
+import SkillsList from '$lib/components/Portfolio/SkillsList.svelte';
 
 describe('Profile', () => {
   it('renders the name as a heading', () => {
@@ -95,5 +96,50 @@ describe('Profile', () => {
   it('does not render the bio section when bio is omitted', () => {
     const { container } = render(Profile, { props: { name: 'Max Eastman' } });
     expect(container.querySelector('.now-next')).toBeNull();
+  });
+});
+
+describe('SkillsList', () => {
+  it('renders skill categories', () => {
+    render(SkillsList, {
+      props: {
+        skills: [
+          { category: 'Data Analysis', items: ['Python', 'SQL'] },
+        ],
+      },
+    });
+    expect(screen.getByText('Data Analysis')).toBeTruthy();
+  });
+
+  it('renders skill items under each category', () => {
+    render(SkillsList, {
+      props: {
+        skills: [
+          { category: 'Data Analysis', items: ['Python', 'SQL'] },
+        ],
+      },
+    });
+    expect(screen.getByText('Python')).toBeTruthy();
+    expect(screen.getByText('SQL')).toBeTruthy();
+  });
+
+  it('renders multiple skill categories', () => {
+    render(SkillsList, {
+      props: {
+        skills: [
+          { category: 'Data Analysis', items: ['Python'] },
+          { category: 'Reporting', items: ['Investigative'] },
+        ],
+      },
+    });
+    expect(screen.getByText('Data Analysis')).toBeTruthy();
+    expect(screen.getByText('Reporting')).toBeTruthy();
+  });
+
+  it('does not render when skills array is empty', () => {
+    const { container } = render(SkillsList, {
+      props: { skills: [] },
+    });
+    expect(container.querySelectorAll('.skill-category')).toHaveLength(0);
   });
 });

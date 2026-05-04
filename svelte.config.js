@@ -34,6 +34,15 @@ const config = {
       base: process.env.BASE_PATH || '',
       relative: false,
     },
+    prerender: {
+      handleHttpError: (error) => {
+        // Allow 404s for image files - they'll be served from static/
+        if (error.status === 404 && error.path.match(/\.(jpg|jpeg|png|gif|webp|svg)$/i)) {
+          return;
+        }
+        throw error;
+      },
+    },
   },
 };
 

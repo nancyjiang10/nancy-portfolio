@@ -7,6 +7,23 @@ profile:
   github: nancyjiang10
   linkedin: jiang-nancy
   bio: I'm a graduate student at the Craig Newmark Graduate School of Journalism at CUNY, focusing on using data analysis as the engine for shoeleather reporting on the issues that matter to New Yorkers.
+
+skills:
+  - category: Data Analysis
+    items:
+      - Python
+      - HTML & CSS
+  - category: Reporting
+    items:
+      - Investigative reporting
+      - Accountability journalism
+      - Policy analysis
+      - Data visualization
+  - category: Tools
+    items:
+      - Excel & Google Sheets
+      - Adobe Creative Suite
+
 clips:
   - slug: after-school
     title: Mayor Adams Pushes 'After-School for All' Plan, but Providers Cite Budget Shortfalls

@@ -73,29 +73,4 @@ Card.svelte — A card container with optional image, link, and footer actions.
       height: auto;
     }
   }
-
-  .card-body {
-    padding: var(--spacing-md, 1rem);
-    flex: 1;
-
-    :global(h3) {
-      font-size: 1.1rem;
-      margin: 0 0 0.5rem;
-      line-height: 1.3;
-    }
-
-    :global(p) {
-      font-size: 0.9rem;
-      margin: 0;
-      line-height: 1.5;
-      color: var(--color-text-secondary, #555);
-    }
-  }
-
-  .card-footer {
-    border-top: 1px solid var(--color-border, #ddd);
-    padding: var(--spacing-sm, 0.75rem) var(--spacing-md, 1rem);
-    background: var(--color-light-gray, #f5f5f5);
-    margin-top: auto;
-  }
 </style>

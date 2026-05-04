@@ -1,0 +1,77 @@
+profile:
+  name: Nancy Jiang
+  tagline: Data and accountability journalist
+  photo: /photos/nancy.jpg
+  photoAlt: Nancy Jiang takes a photo on her film camera.
+  email: nancyjiang60@gmail.com
+  github: nancyjiang10
+  linkedin: jiang-nancy
+  bio: I'm a graduate student at the Craig Newmark Graduate School of Journalism at CUNY, focusing on using data analysis as the engine for shoeleather reporting on the issues that matter to New Yorkers.
+clips:
+  - slug: after-school
+    title: Mayor Adams Pushes 'After-School for All' Plan, but Providers Cite Budget Shortfalls
+    image: /photos/after-school.jpg
+    imageAlt: A classroom at P.S. 130
+    description: The Chinese-American Planning Council went into the red with its budget to fund student enrollment in its new programs. After-schools, including those at P.S. 130 (pictured), say they’re feeling the squeeze.
+    url: https://www.nycitynewsservice.com/2025/11/25/mayor-adams-pushes-after-school-for-all-plan-but-providers-cite-budget-shortfalls/
+    skills:
+      - Local accountability
+      - Source building
+    body: |
+      The education beat in New York City is deeply personal to me. I grew up in the Lower East Side attending its public schools, and being able to get the perspectives of educators and providers in the city was a privilege.
+      
+  - slug: student-loans
+    title: It's About To Get Harder To Pay Off Your Student Loans—Here's What Changed
+    image: /photos/student-loans.jpg
+    imageAlt: Student loans are about to change
+    description: Student loans will become harder to pay off after Trump's One Big Beautiful Bill.
+    url: https://www.forbes.com/advisor/d/how-big-beautiful-bill-impacts-student-loans/
+    skills:
+      - Policy reporting
+      - Document analysis
+    body: |
+      I wrote about the changes to student loan repayment in the wake of Trump's One Big Beautiful Bill, which made it harder for borrowers to pay off their loans. I analyzed the bill's provisions and explained how they would affect borrowers, especially those with lower incomes.
+      
+  - slug: feb-international-trade
+    title: US Goods Deficit Increased, Trade Deficit Little Changed Despite Trump Tariffs
+    image: /photos/trade.jpg
+    imageAlt: An international trading port with containers and cranes
+    description: The US trade deficit in goods increased from the year prior, despite Trump tariffs that attempted to close the gap.
+    url: https://issuenumberone.journalism.cuny.edu/2026/02/23/us-goods-deficit-increased-trade-deficit-little-changed-despite-trump-tariffs/
+    skills:
+      - Business reporting
+    body: |
+      For this story, I analyzed trade data to understand the impact of Trump's tariffs on the US trade deficit. I found that while the goods deficit increased, the overall trade deficit remained relatively unchanged, suggesting that the tariffs may not have had the intended effect.
+
+hero:
+  title: Nancy Jiang
+  subtitle: Data and accountability journalist focused on New York reporting.
+
+featured:
+  - slug: after-school
+    title: Mayor Adams Pushes 'After-School for All' Plan
+    image: /photos/after-school.jpg
+    imageAlt: A classroom at P.S. 130
+    description: Selected project about after-school program funding and providers.
+
+  - slug: student-loans
+    title: It's About To Get Harder To Pay Off Your Student Loans
+    image: /photos/student-loans.jpg
+    imageAlt: Student loans are about to change
+    description: Explainer about changes to student loan repayment.
+
+  - slug: feb-international-trade
+    title: US Goods Deficit Increased, Trade Deficit Little Changed
+    image: /photos/trade.jpg
+    imageAlt: An international trading port with containers and cranes
+    description: Data-driven reporting on trade and tariffs.
+    url: https://issuenumberone.journalism.cuny.edu/2026/02/23/us-goods-deficit-increased-trade-deficit-little-changed-despite-trump-tariffs/
+    skills:
+      - Accountability reporting
+      - Government affairs
+      - Advocacy
+      - Photography
+    body:
+      The Bend was three acres of the foulest tenement block in the city — narrow alleys where the sun never reached, buildings that should have been condemned a generation earlier, and a death rate among the children many times higher than the city average.
+
+      I wrote about it for years. I photographed it. I lectured on it. Reform is slow. The Bend went from a block I first reported on as a young man to a public park nearly twenty years later.
